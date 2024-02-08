@@ -1,0 +1,39 @@
+*{
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: var(--background-all);
+
+  --background-all: #111315;
+  --background-coffe-menu: #1B1D1F;
+  --color-text-p: #6F757C;
+  --color-price: #BEE3CC;
+  --background-title: #FEF7EE;
+  --background-popular: #F6C768;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --heading-text-size: 2rem;
+  --body-text-size: 1rem;
+  --label-text-size: 0.875rem;
+  --small-text-size: 0.625rem;
+  --price-text-size: 0.75rem;
+
+
+  font-family: DM Sans, system-ui, Arial, sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+  font-size: 16px;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
